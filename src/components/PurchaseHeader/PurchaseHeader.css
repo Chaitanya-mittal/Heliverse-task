@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.purchaseBtn {
+    padding: 11px 35px;
+}
+
+.purchaseBtn span {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.soraText {
+    font-family: "Sora";
+}
+
+.outfitText {
+    font-family: "Outfit", sans-serif;
+}
