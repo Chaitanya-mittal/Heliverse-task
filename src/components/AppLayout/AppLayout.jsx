@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import { useEffect } from "react";
-import "/Users/chaitanya/Desktop/locoReactScroll/node_modules/locomotive-scroll/dist/locomotive-scroll.css";
+
 import { Outlet } from "react-router-dom";
 function AppLayout() {
   useEffect(() => {
