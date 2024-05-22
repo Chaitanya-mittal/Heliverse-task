@@ -6,7 +6,7 @@ function Canvas() {
   useEffect(() => {
     webGLFluidEnhanced.simulation(canvasRef.current, {
       SIM_RESOLUTION: 256,
-      DENSITY_DISSIPATION: 3,
+      DENSITY_DISSIPATION: 2.5,
       BRIGHTNESS: 0.5,
       SHADING: true, // Color brightness (Recommend lower than 1.0 if BLOOM is true)
       CURL: 15,
@@ -17,7 +17,7 @@ function Canvas() {
       COLOR_PALETTE: ["#9ACD32", "#FA8072", "#EE82EE"],
       SPLAT_RADIUS: 0.25,
       SPLAT_AMOUNT: 6,
-      SUNRAYS_WEIGHT: 0.8,
+      SUNRAYS_WEIGHT: 0.7,
       BLOOM: true, // Weight of the sunrays effect
       HOVER: true,
     });
