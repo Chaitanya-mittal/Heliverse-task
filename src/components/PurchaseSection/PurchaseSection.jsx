@@ -32,7 +32,7 @@ function PurchaseSection() {
         <img
           src="./motionarteffect-img5.png"
           alt="wand"
-          className="mx-auto md:ms-auto"
+          className="mx-auto md:me-0 md:ms-auto"
         />
       </div>
     </div>
