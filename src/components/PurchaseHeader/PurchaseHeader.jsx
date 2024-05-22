@@ -3,10 +3,10 @@ import "./PurchaseHeader.css";
 function PurchaseHeader() {
   return (
     <div className="flex w-full items-center lg:grid lg:grid-cols-5  ">
-      <div className="relative flex w-[50%] items-center p-[10px] lg:col-span-1">
+      <div className="relative flex  w-[50%] items-center p-[10px] lg:col-span-1">
         <img src="MotionArtEffect-logo.png" alt="motion-logo" />
       </div>
-      <div className="w-[50%] lg:hidden"></div>
+      <div className="block w-[50%]  lg:hidden"></div>
       <div className="hidden  items-center justify-end p-[10px]  lg:col-span-4 lg:flex ">
         {" "}
         <a

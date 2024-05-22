@@ -1,19 +1,16 @@
 import Navbar from "../Navbar/Navbar";
 import { useEffect } from "react";
-
-import { Outlet } from "react-router-dom";
+import Main from "../Main/Main";
+import LocomotiveScroll from "locomotive-scroll";
 function AppLayout() {
   useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      new LocomotiveScroll();
-    })();
+    new LocomotiveScroll();
   }, []);
   return (
     <div className="h-screen w-screen ">
       <Navbar />
       <div className=" h-full w-screen pt-[54px]  " data-scroll-container>
-        <Outlet />
+        <Main />
       </div>
     </div>
   );
