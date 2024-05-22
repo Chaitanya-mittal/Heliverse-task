@@ -15,9 +15,9 @@ function PurchaseSection() {
         </p>
         <div className=" mx-auto  flex justify-center pt-[10px] md:inline-block">
           <a
-            href="/https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891"
+            href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891"
             target="_blank"
-            className="gradientBg soraText flex items-center rounded-[20px] p-[20px] font-[300] text-white  md:px-[35px] md:py-[20px] "
+            className="gradientBg soraText pointer-events-auto flex items-center rounded-[20px]  p-[20px] font-[300] text-white md:px-[35px] md:py-[20px] "
           >
             <span className="text-[20px] leading-[1.4rem]">
               Purchase From Envanto

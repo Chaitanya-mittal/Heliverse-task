@@ -3,11 +3,11 @@ function Intro() {
   return (
     <div className="my-[80px] flex w-full  flex-col md:flex-row ">
       <div className="flex w-full justify-center p-[10px] md:block md:w-[25%] ">
-        <div className=" ps-[15px] max-[1366px]:max-w-[138.106px] md:max-w-[150px]">
+        <div className=" ps-[15px]  max-[480px]:text-center md:max-w-[150px] min-[1366px]:max-w-[138.106px]">
           <p className="gradientText soraText mb-[10px]  text-[18px] font-[500] leading-7">
-            Transform Your Website
+            Transform Your <span className="block md:inline">Website</span>
           </p>
-          <p className="outfitText text-[18px] font-[200] leading-6">
+          <p className="outfitText  text-[18px] font-[200] leading-6 ">
             With Motion Art Effect
           </p>
         </div>
