@@ -7,7 +7,7 @@ function PurchaseHeader() {
         <img
           src="MotionArtEffect-logo.png"
           alt="motion-logo"
-          className="max-w-full"
+          className="w-full"
         />
       </div>
       <div className="block w-[50%]  lg:hidden"></div>
